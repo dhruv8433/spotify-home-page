@@ -12,7 +12,7 @@ const SongCard = ({ song }) => {
   };
 
   return (
-    <Card className="mx-2 secondary-nav relative overflow-hidden group">
+    <Card className="mx-2 secondary-nav rounded-md relative overflow-hidden group">
       <CardMedia>
         <div className="w-[222px] object-cover p-3">
           <img
