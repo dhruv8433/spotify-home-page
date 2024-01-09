@@ -2,6 +2,7 @@ import { Add, LibraryMusic, Public } from "@mui/icons-material";
 import React from "react";
 import PlaylistCard from "./PlaylistCard";
 import Link from "next/link";
+import Box from "@mui/material/Box";
 
 const NavComponent2 = () => {
   return (
@@ -31,7 +32,7 @@ const NavComponent2 = () => {
         />
 
         {/* privacy center */}
-        <div className="mt-52">
+        <Box sx={{ mt: { xs: 22, md: 38 } }}>
           <div className="flex justify-between">
             <Link className="text-sm text-gray-300" href={"/"}>
               Legal
@@ -60,7 +61,7 @@ const NavComponent2 = () => {
             <Public />
             <h1 className="font-semibold text-sm">English</h1>
           </div>
-        </div>
+        </Box>
       </div>
     </div>
   );
