@@ -25,15 +25,17 @@ export default function RootLayout({ children }) {
             </div>
           </Grid>
           <Grid item xs={12} md={9}>
-            {/* secondary nav */}
-            <SecondaryNavbar />
+            <div className="secondary-nav mx-2 rounded-md">
+              {/* secondary nav */}
+              <SecondaryNavbar />
 
-            {/* childrens */}
-            {children}
+              {/* childrens */}
+              {children}
 
-            {/* footer component */}
-            <div>
-              <Footer />
+              {/* footer component */}
+              <div>
+                <Footer />
+              </div>
             </div>
           </Grid>
         </Grid>
