@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="py-10">
       <div className="flex justify-between">
-        <Grid container spacing={4} className="w-[60%] ml-8">
+        <Grid container spacing={3} className="w-[60%] ml-8">
           <Grid item xs={12} md={4}>
             <h1 className="font-semibold">Company</h1>
             <div className="flex flex-col text-gray-400">

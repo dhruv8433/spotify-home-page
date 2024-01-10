@@ -12,7 +12,7 @@ const SongCard = ({ song }) => {
   };
 
   return (
-    <Card className="mx-2 my-2 secondary-nav rounded-md relative overflow-hidden group">
+    <Card className="mx-2 my-2 secondary-nav rounded-md relative overflow-hidden cursor-pointer group">
       <CardMedia>
         <div className="secondary-nav object-cover p-3">
           <img
@@ -25,7 +25,7 @@ const SongCard = ({ song }) => {
         </div>
         <div className="absolute bottom-32 right-4 opacity-0 group-hover:opacity-100">
           <IconButton className="p-2 bg-green-600 hover:bg-green-600">
-            <PlayArrow sx={{ color: "black" }} />
+            <PlayArrow sx={{ color: "black" }} className="bg-green-600" />
           </IconButton>
         </div>
       </CardMedia>
