@@ -25,3 +25,7 @@ body {
     rgba(255, 255, 255, 0.1) 100%
   );
 }
+
+.css-9mgopn-MuiDivider-root {
+  border-color: rgba(255, 255, 255, 0.12);
+}
