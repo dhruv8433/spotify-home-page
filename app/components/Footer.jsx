@@ -1,5 +1,6 @@
 import { Facebook, Instagram, Twitter } from "@mui/icons-material";
 import IconButton from "@mui/material/IconButton";
+import Divider from "@mui/material/Divider";
 import { Grid } from "@mui/material";
 import Link from "next/link";
 import React from "react";
@@ -66,6 +67,10 @@ const Footer = () => {
             <Facebook sx={{ color: "white" }} />
           </IconButton>
         </div>
+      </div>
+      <div className="mt-10 p-5">
+        <Divider />
+        <h1 className="mt-2">&copy; 2024 Spotify AB</h1>
       </div>
     </div>
   );
