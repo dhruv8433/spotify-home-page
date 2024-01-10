@@ -1,6 +1,7 @@
 import { Facebook, Instagram, Twitter } from "@mui/icons-material";
 import IconButton from "@mui/material/IconButton";
 import Divider from "@mui/material/Divider";
+import Box from "@mui/material/Box";
 import { Grid } from "@mui/material";
 import Link from "next/link";
 import React from "react";
@@ -56,7 +57,7 @@ const Footer = () => {
             </div>
           </Grid>
         </Grid>
-        <div className="text-white flex mr-4">
+        <div className="text-white flex -mt-28 mr-4">
           <IconButton>
             <Instagram sx={{ color: "white" }} />
           </IconButton>
@@ -68,10 +69,10 @@ const Footer = () => {
           </IconButton>
         </div>
       </div>
-      <div className="mt-10 p-5">
+      <Box p={{ xs: "none", md: 3 }} className="mt-10">
         <Divider />
         <h1 className="mt-2">&copy; 2024 Spotify AB</h1>
-      </div>
+      </Box>
     </div>
   );
 };
