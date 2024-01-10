@@ -25,7 +25,7 @@ const SongCard = ({ song }) => {
         </div>
         <div className="absolute bottom-32 right-4 opacity-0 group-hover:opacity-100">
           <IconButton className="p-2 bg-green-600 hover:bg-green-600">
-            <PlayArrow sx={{ color: "black" }} className="bg-green-600" />
+            <PlayArrow sx={{ color: "black" }} className="bg-green-600 p-1 rounded-full" />
           </IconButton>
         </div>
       </CardMedia>
