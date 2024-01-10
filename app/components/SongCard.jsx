@@ -1,5 +1,5 @@
 import { PlayArrow } from "@mui/icons-material";
-import { Card, CardContent, CardMedia, IconButton } from "@mui/material";
+import { Card, CardContent, CardMedia, Grid, IconButton } from "@mui/material";
 import React from "react";
 
 const SongCard = ({ song }) => {
@@ -14,10 +14,11 @@ const SongCard = ({ song }) => {
   return (
     <Card className="mx-2 secondary-nav rounded-md relative overflow-hidden group">
       <CardMedia>
-        <div className="w-[222px] object-cover p-3">
+        <div className="secondary-nav object-cover p-3">
           <img
             src={song.images[0]["url"]}
             height={"100%"}
+            width={"100%"}
             className="object-cover rounded-md"
             alt=""
           />
