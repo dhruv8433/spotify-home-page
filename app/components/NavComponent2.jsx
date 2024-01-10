@@ -6,7 +6,7 @@ import Box from "@mui/material/Box";
 
 const NavComponent2 = () => {
   return (
-    <div className="primary-nav rounded-md h-[84vh]">
+    <div className="primary-nav rounded-md h-[96vh]">
       {/* your library */}
       <div className="p-6">
         <div className="library flex justify-between text-gray-400 hover:text-white">
