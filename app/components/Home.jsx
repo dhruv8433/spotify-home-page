@@ -43,7 +43,7 @@ const Home = () => {
         ) : (
           // only fetching first 7 response from spotify api
           songs.slice(0, 7).map((song) => (
-            <Grid key={song.id} item xs={4} md={2}>
+            <Grid key={song.id} item xs={6} md={2}>
               <SongCard key={song.id} song={song} />
             </Grid>
           ))

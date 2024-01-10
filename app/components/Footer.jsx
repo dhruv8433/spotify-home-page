@@ -56,7 +56,7 @@ const Footer = () => {
             </div>
           </Grid>
         </Grid>
-        <div className="text-white mr-4">
+        <div className="text-white flex mr-4">
           <IconButton>
             <Instagram sx={{ color: "white" }} />
           </IconButton>
