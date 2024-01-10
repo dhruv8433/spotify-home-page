@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Grid container>
           <Grid item xs={12} md={3}>
-            {/* navigation bar   */}
+            {/* navigation bar */}
             <Box display={{ xs: "none", md: "block" }}>
               <PrimaryNavbar />
             </Box>
