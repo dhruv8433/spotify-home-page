@@ -8,11 +8,11 @@ const SecondaryNavbar = () => {
       <div className="mt-2 flex justify-between">
         {/* navigation button */}
         <div className="flex">
-          <IconButton className="text-white flex justify-center items-center">
-            <NavigateBeforeOutlined />
+          <IconButton className="flex justify-center items-center">
+            <NavigateBeforeOutlined sx={{ color: "white" }} />
           </IconButton>
-          <IconButton className="text-white flex justify-center items-center">
-            <NavigateNext />
+          <IconButton className="flex justify-center items-center">
+            <NavigateNext sx={{ color: "white" }} />
           </IconButton>
         </div>
 
