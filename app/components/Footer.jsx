@@ -10,7 +10,12 @@ const Footer = () => {
   return (
     <div className="py-10">
       <div className="flex justify-between">
-        <Grid container spacing={3} className="w-[60%] ml-8" style={{marginLeft: "10px"}}>
+        <Grid
+          container
+          spacing={3}
+          className="w-[60%] ml-8"
+          style={{ marginLeft: "10px" }}
+        >
           <Grid item xs={12} md={4}>
             <h1 className="font-semibold">Company</h1>
             <div className="flex flex-col text-gray-400">
@@ -71,7 +76,7 @@ const Footer = () => {
       </div>
       <Box p={{ xs: "none", md: 3 }} className="mt-10">
         <Divider />
-        <h1 className="mt-2">&copy; 2024 Spotify AB</h1>
+        <h1 className="mt-2 ml-2">&copy; 2024 Spotify AB</h1>
       </Box>
     </div>
   );
