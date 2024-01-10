@@ -57,7 +57,7 @@ const Footer = () => {
             </div>
           </Grid>
         </Grid>
-        <div className="text-white flex -mt-28 mr-4">
+        <Box mt={{ xs: -42, md: -12 }} className="text-white flex mr-4">
           <IconButton>
             <Instagram sx={{ color: "white" }} />
           </IconButton>
@@ -67,7 +67,7 @@ const Footer = () => {
           <IconButton>
             <Facebook sx={{ color: "white" }} />
           </IconButton>
-        </div>
+        </Box>
       </div>
       <Box p={{ xs: "none", md: 3 }} className="mt-10">
         <Divider />
