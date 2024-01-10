@@ -34,7 +34,7 @@ const Home = () => {
     <div className="white-shadow">
       <div className="flex justify-between px-4 pt-4 items-center">
         <h1 className="text-2xl font-semibold">Spotify Playlist</h1>
-        <h1 className="font-semibold text-gray-400 text-sm">Show all</h1>
+        <h1 className="font-semibold text-gray-400 text-sm hover:cursor-pointer">Show all</h1>
       </div>
       <Grid container className="flex mt-4">
         {/* if response is loading than show skeleton */}
