@@ -5,7 +5,6 @@ import { fetchSongs } from "../service/fetchSongs";
 import SongCard from "./SongCard";
 import { getAccessToken } from "../service/getAccessToken";
 import { Grid } from "@mui/material";
-import Skeleton from "./Skeleton";
 import SkeletonCard from "./Skeleton";
 
 const Home = () => {
