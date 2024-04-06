@@ -29,3 +29,9 @@ body {
 .css-9mgopn-MuiDivider-root {
   border-color: rgb(100 95 95 / 92%);
 }
+
+td {
+  border: none;
+  border-bottom: none !important;
+  padding: 8px;
+}
