@@ -18,3 +18,11 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+.MuiTableCell-root
+.MuiTableCell-body
+.MuiTableCell-sizeMedium
+.css-1ex1afd-MuiTableCell-root {
+border: none;
+border-bottom: none;
+}
