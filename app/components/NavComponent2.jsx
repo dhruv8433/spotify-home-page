@@ -32,7 +32,7 @@ const NavComponent2 = () => {
         />
 
         {/* privacy center */}
-        <Box sx={{ mt: { xs: 22, md: 38 } }}>
+        <Box sx={{ mt: { xs: 22, md: 28 } }}>
           <div className="flex justify-between">
             <Link className="text-sm text-gray-300" href={"/"}>
               Legal
