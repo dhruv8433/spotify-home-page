@@ -35,6 +35,18 @@ const page = () => {
     getAccessToken().then(() => fetchingPlayListDetails());
   }, []);
 
+  function formatDuration(duration_ms) {
+    let hours = Math.floor(duration_ms / 3600000); // 1 hour = 3600000 ms
+    let minutes = Math.floor((duration_ms % 3600000) / 60000); // 1 minute = 60000 ms
+    return hours + " hours " + minutes + " minutes";
+  }
+
+  const totalDuration_ms = playlist?.tracks?.items?.reduce(
+    (total, song) => total + song.track.duration_ms,
+    0
+  );
+  const totalDuration = formatDuration(totalDuration_ms);
+
   return (
     <div>
       <div className="flex items-center bg-neutral-800">
@@ -61,6 +73,15 @@ const page = () => {
             />
             <h1 className="font-bold hover:underline hover:cursor-pointer">
               {playlist?.owner?.display_name}
+            </h1>
+            <li className="hover:underline hover:cursor-pointer ml-5">
+              {playlist?.followers?.total} likes
+            </li>
+            <li className="hover:underline hover:cursor-pointer ml-5">
+              {playlist?.tracks?.total} songs ,
+            </li>
+            <h1 className="text-gray-500 hover:underline hover:cursor-pointer ml-2">
+              About {totalDuration}
             </h1>
           </div>
         </div>
