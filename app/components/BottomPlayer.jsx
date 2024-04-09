@@ -126,11 +126,10 @@ const BottomPlayer = () => {
                 value={volume}
                 onChange={handleVolumeChange}
                 aria-label="Volume"
+                className="hover:text-green-500 items-center justify-center"
                 sx={{
                   width: "150px",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  color: "green",
+                  color: "white",
                 }}
               />
             </IconButton>
