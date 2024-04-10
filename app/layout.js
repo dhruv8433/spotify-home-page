@@ -1,13 +1,13 @@
-import { Inter } from "next/font/google";
-import PrimaryNavbar from "@/app/components/PrimaryNavbar";
-import Footer from "@/app/components/Footer";
-import "./style/style.css";
 import "./globals.css";
-import { Grid } from "@mui/material";
-import SecondaryNavbar from "./components/SecondaryNavbar";
+import "./style/style.css";
 import Box from "@mui/material/Box";
-import BottomPlayer from "./components/BottomPlayer";
+import { Grid } from "@mui/material";
+import { Inter } from "next/font/google";
 import StoreProvider from "./StoreProvider";
+import Footer from "@/app/components/Footer";
+import BottomPlayer from "./components/BottomPlayer";
+import PrimaryNavbar from "@/app/components/PrimaryNavbar";
+import SecondaryNavbar from "./components/SecondaryNavbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
