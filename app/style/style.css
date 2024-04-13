@@ -46,25 +46,3 @@ tr:hover {
 .css-1q1u3t4-MuiTableRow-root.MuiTableRow-hover:hover {
   background: #373333;
 }
-
-/* Path: app/style/variables.css */
-:root {
-  --primary: 255, 255, 255;
-  --text: 0, 0, 0;
-  --nav-bg: 255, 255, 255;
-  --component-bg: 255, 255, 255;
-  --highlight: 255, 255, 255;
-}
-
-/* Path: app/style/variables-dark.css */
-:root {
-  --primary: 0, 0, 0;
-  --text: 255, 255, 255;
-  --nav-bg: 0, 0, 0;
-  --component-bg: 0, 0, 0;
-  --highlight: 0, 0, 0;
-}
-
-th {
-  background: rgba(0, 0, 0, 0.1);
-}
