@@ -4,3 +4,4 @@
 
 ## Features
 - Play/Pause song
+- Playlists
