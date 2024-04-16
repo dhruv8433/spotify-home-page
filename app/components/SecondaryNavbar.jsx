@@ -4,7 +4,7 @@ import { NavigateBeforeOutlined, NavigateNext } from "@mui/icons-material";
 import { Modal } from "@mui/material";
 import IconButton from "@mui/material/IconButton";
 import React, { useState } from "react";
-import LoginModel from "../Model/loginModel";
+import LoginModel from "../Model/LoginModel";
 
 const SecondaryNavbar = () => {
   const [loginModelOpen, setLoginModelOpen] = useState(false);
