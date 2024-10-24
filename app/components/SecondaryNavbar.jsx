@@ -35,8 +35,8 @@ const SecondaryNavbar = () => {
       {/* Login Model */}
       <>
         <Modal open={loginModelOpen} onClose={() => setLoginModelOpen(false)}>
-          <div className="">
-            <LoginModel />
+          <div className="flex justify-center items-center">
+            <LoginModel setLoginModelOpen={setLoginModelOpen} />
           </div>
         </Modal>
       </>
